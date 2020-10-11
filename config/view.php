@@ -33,4 +33,13 @@ return [
         realpath(storage_path('framework/views'))
     ),
 
+    /*
+    |--------------------------------------------------------------------------
+    | Имя макета
+    |--------------------------------------------------------------------------
+    |
+    | custom - resources/views/layouts/custom.blade.php
+    |
+    */
+    'theme' => env('THEME', 'citrix'),
 ];
