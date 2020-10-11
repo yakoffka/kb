@@ -138,9 +138,8 @@
     </header>
     <!--breadcrumb_area-->
     <section class="breadcrumb_area parallax_effect" data-background="img/bg.jpg" style="margin-top: 0px;
-          background: url('/citrix/assets/img/1920x925.png') no-repeat center
-            center / cover;
-        ">
+          background: url('/citrix/assets/img/1920x925.jpg') no-repeat center bottom / cover;
+    ">
         <div class="overlay_bg"></div>
         <div class="container">
             <div class="bread_content">
@@ -413,7 +412,7 @@
                             <script>
                                 document.write(new Date().getFullYear());
                             </script>
-                            <a href="#"> YoStudio</a>. All Rights Reserved.
+                            <a href="https://0b1101.site"> YoStudio</a>. All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-lg-7 col-md-6">
