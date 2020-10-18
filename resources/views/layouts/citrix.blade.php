@@ -159,100 +159,15 @@
 
 
 
-    <!--contact_area-->
-    <section class="contact_area sec_pad">
-        <div class="container">
-            <div class="row flex-row-reverse">
-                <div class="col-lg-6">
-                    <div class="contact_info_right">
-                        <h2>{{ __('Contact Details') }}</h2>
-                        <div class="media c_info_item">
-                            <div class="icon"><i class="fas fa-home"></i></div>
-                            <div class="media-body">
-                                <h5>Наш адрес</h5>
-                                <p>
-                                    107140, г. Москва, улица Верхняя Красносельская, владение 16, строение 2, этаж 1
-                                </p>
-                            </div>
-                        </div>
-                        <div class="media c_info_item">
-                            <div class="icon"><i class="fas fa-phone"></i></div>
-                            <div class="media-body">
-                                <h5>Телефоны</h5>
-                                <p>
-                                    <span>
-                                        Офис:
-                                        <a href="tel:01253478">+7 800 945 202 123</a>
-                                    </span>
-                                    <span>
-                                        Мобильный:
-                                        <a href="tel:01253478">+7 800 945 202 123</a>
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="media c_info_item">
-                            <div class="icon"><i class="fas fa-envelope"></i></div>
-                            <div class="media-body">
-                                <h5>Email адрес</h5>
-                                <p>
-                                    <a href="mailto:email@kb911.su">email@kb911.su</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="contact_inner">
-                        <h2>Отправить сообщение</h2>
-                        <form action="contact_process.php" method="post" id="contactForm" novalidate="novalidate"
-                              class="row contact_form">
-                            <div class="col-lg-12 form-group">
-                                <input class="form-control" type="text" id="name" name="name"
-                                       placeholder="Иванов Василий"/>
-                            </div>
-                            <div class="col-lg-12 form-group">
-                                <input class="form-control" type="email" id="email" name="email" placeholder="Email"/>
-                            </div>
-                            <div class="col-lg-12 form-group">
-                                <input class="form-control" type="text" id="subject" name="subject" placeholder="Тема"/>
-                            </div>
-                            <div class="col-lg-12 form-group">
-                                <textarea class="form-control" name="message" id="message" cols="30" rows="10"
-                                          placeholder="Сообщение"></textarea>
-                            </div>
-                            <div class="col-lg-12 text-right form-group">
-                                <button type="submit" class="theme_btn">
-                                    Отправить сообщение
-                                </button>
-                            </div>
-                        </form>
-                        <div id="success">Your message succesfully sent!</div>
-                        <div id="error">
-                            Opps! There is something wrong. Please try again
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--contact_area-->
-{{--<section class="map_area">
-    --}}{{--<div id="mapBox2" class="mapBox1" data-marker="citrix/assets/img/location.png" data-lat="40.701083"
-         data-lon="-74.1522848" data-zoom="12" data-info="54B, Tailstoi Town 5238 La city, IA 522364"
-         data-mlat="40.701083" data-mlon="-74.1522848"></div>--}}{{--
-    <div id="mapBox2" class="mapBox1" data-marker="citrix/assets/img/location.png" data-lat="55.751999"
-         data-lon="37.617734" data-zoom="14" data-info="Верхняя Красносельская, владение 16, строение 2, этаж 1"
-         data-mlat="55.751999" data-mlon="37.617734"></div>
-</section>--}}
-<!--theme_promo_area-->
+    <!--theme_promo_area-->
     <section class="theme_promo_area">
         <div class="container">
             <h3>Результат нашей работы — не решение суда с исполнительным листом, а реально возвращенные клиенту денежные средства.</h3>
-            <a href="#" class="theme_w_btn border_btn">узнать больше</a>
+            {{--<a href="#" class="theme_w_btn border_btn">узнать больше</a>--}}
         </div>
     </section>
     <!--theme_promo_area-->
+
     <!--footer_area-->
     <footer class="footer_area">
         <div class="footer_top">
@@ -417,15 +332,15 @@
                     </div>
                     <div class="col-lg-7 col-md-6">
                         <ul class="f_menu list-unstyled">
-                            {{--<li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Works</a></li>
-                            <li><a href="#">Contact</a></li>--}}
                             @include('menus.main')
                         </ul>
                     </div>
+                </div>
+
+                <div class="row">
+                    <p style="font-size: 0.8em;">ООО "КБ911" является оператором по обработке персональных данных за номером 24-15-002884 (Приказ № 339 от 04.12.2015 года Федеральной службы по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор))</p>
+                    <p style="font-size: 0.8em;">Предоставляя свои персональные данные Пользователь даёт согласие на обработку, хранение и использование своих персональных данных на основании ФЗ № 152-ФЗ «О персональных данных»</p>
+                    <p style="font-size: 0.8em;"><a href="/storage/laravel_security.pdf">Политика конфиденциальности</a></p>
                 </div>
             </div>
         </div>

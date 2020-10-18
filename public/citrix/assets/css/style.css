@@ -101,6 +101,14 @@ button:focus {
   padding: 100px 0px;
 }
 
+.sec_pad1 {
+    padding: 100px 0px 10px 0px;
+}
+
+.sec_pad2 {
+  padding: 10px  0px 100px 0px;
+}
+
 .bg_color {
   background: #f3f2f9;
 }
