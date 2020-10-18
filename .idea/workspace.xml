@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Добавление заготовок в шаблоны верстки" />
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Добавление заготовок в шаблоны верстки">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/documents.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/documents.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +208,7 @@
       <workItem from="1602341599157" duration="2720000" />
       <workItem from="1602930573172" duration="82000" />
       <workItem from="1602932164467" duration="314000" />
-      <workItem from="1602932575409" duration="15341000" />
+      <workItem from="1602932575409" duration="16090000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -241,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603032784177</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавление заготовок в шаблоны верстки">
+      <created>1603033033022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603033033022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,14 +298,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1602441619807" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603032785667">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603033034976">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603032785667" />
-    <state x="389" y="135" width="587" height="546" key="find.popup" timestamp="1603031913156">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603033034976" />
+    <state x="389" y="135" width="587" height="546" key="find.popup" timestamp="1603033500349">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="389" y="135" width="587" height="546" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1603031913156" />
+    <state x="389" y="135" width="587" height="546" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1603033500349" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

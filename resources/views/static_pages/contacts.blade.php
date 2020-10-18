@@ -12,8 +12,8 @@
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="about_content pl-0 wow fadeInLeft">
-                        <h6>Hello Word!</h6>
-                        <h2>Welcome to Citrix</h2>
+                        <h6>Есть вопросы?</h6>
+                        <h2>Свяжитесь с нами любым удобным для Вас способом</h2>
                         <p>
                             Aliquam vehicula mollis urna vel dignissim. Integer tincidunt
                             viverra est, non congue lorem tempor ac. Phasellus pulvinar
