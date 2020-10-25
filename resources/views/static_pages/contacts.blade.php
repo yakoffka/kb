@@ -9,13 +9,25 @@
     <!--work_area-->
     <section class="work_area sec_pad bg_color">
         <div class="container">
+
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    {{--<h6>Есть вопросы?</h6>--}}
+                    <h2>Свяжитесь с нами любым удобным для Вас способом</h2>
+                </div>
+            </div>
+
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="about_content pl-0 wow fadeInLeft">
-                        <h6>Есть вопросы?</h6>
-                        <h2>Свяжитесь с нами любым удобным для Вас способом</h2>
                         <p>
-                            Мы всегда готовы ответить на Ваши вопросы.
+                            Мы всегда готовы ответить на Ваши вопросы и
+                            оказать квалифицированную помощь!
+                        </p>
+                        <p>
+                            Режим работы:<br>
+                            Пн-Пт с 10:00 - 18:00<br>
+                            Сб и Вс - выходной
                         </p>
                     </div>
                 </div>
