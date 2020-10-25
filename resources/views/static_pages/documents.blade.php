@@ -12,7 +12,7 @@
             <div class="section_title text-center">
                 <h6 class="wow fadeInUp">документы</h6>
                 <h2 class="wow fadeInUp" data-wow-delay="0.2s">
-                    документы
+                    Документы
                 </h2>
             </div>
             <div class="row">
@@ -42,14 +42,14 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="h_blog_post_item blog_item">
                                 <a href="blog-details.html" class="post_img">
-                                    <img src="{{ asset('citrix/assets/img/documents/th.jpeg') }}" alt=""/>
+                                    <img src="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.jpg" alt=""/>
                                 </a>
 
                                 <div class="post_content">
-                                    <a href="#" class="h_post_date"><?php echo date('Y M d'); ?></a>
-                                    <!--a href="blog-details.html"--><a href="#">
+                                    <a href="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.pdf" class="h_post_date">25 Октября 2020 г.</a>
+                                    <a href="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.pdf">
                                         <h3>
-                                            Описание документа на две-три строки. Можно больше.
+                                            Приказ о внесении в реестр Роскомнадзора
                                         </h3>
                                     </a>
                                     <div class="h_post_info">
@@ -60,7 +60,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-4">
+                        {{--<div class="col-lg-4 col-md-4">
                             <div class="h_blog_post_item blog_item">
                                 <a href="blog-details.html" class="post_img">
                                     <img src="{{ asset('citrix/assets/img/documents/th.jpeg') }}" alt=""/>
@@ -163,7 +163,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>--}}
 
 
                     </div>

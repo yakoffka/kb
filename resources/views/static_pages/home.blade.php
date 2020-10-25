@@ -9,39 +9,45 @@
     <!--work_area-->
     <section class="work_area sec_pad bg_color">
         <div class="container">
+
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <h6>Добро пожаловать!</h6>
+                    <h2>Добро пожаловать на сайт коллекторского бюро «КБ 911»</h2>
+                </div>
+            </div>
+
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="about_content pl-0 wow fadeInLeft">
-                        <h6>Добро пожаловать!</h6>
-                        <h2>Добро пожаловать на сайт агенства КБ911</h2>
                         <p>
-                            ООО «КБ911» независимое коллекторское агентство, работающее с дебиторской задолженностью
-                            граждан и организаций с 2011 года.
+                            ООО «КБ 911» независимое коллекторское бюро, работающее с задолженностью физических и
+                            юридических лиц на территории России.
                         </p>
                         <p>
-                            Наших сотрудников отличают профессионализм и индивидуальный подход к каждому должнику. Мы
-                            стараемся учитывать все обстоятельства дела, «достучаться» до самого отпетого неплательщика.
-                            Неординарный подход к решению проблемы, позволяющий учитывать множество важных для
-                            разрешения конфликта экономических, социальных и психологических аспектов, отличает нас от
-                            большинства юридических агентств, занимающихся долгами.
+                            Наших сотрудников отличают профессионализм и
+                            индивидуальный подход к каждому клиенту. При работе с должниками мы изучаем и учитываем все
+                            обстоятельства дела, взвешиваем каждый свой шаг.
                         </p>
                         <p>
-                            ООО «КБ911» независимое коллекторское агентство, работающее с дебиторской задолженностью
-                            граждан и организаций с 2011 года.
+                            Инновационные подходы, позволяющие
+                            эффективно решать задачи по взысканию просроченной задолженности даже в самых сложных
+                            случаях, выгодно отличают нас от большинства юридических агентств, занимающихся взысканием
+                            долгов.
                         </p>
                         {{--<a href="#" class="theme_btn">View More</a>--}}
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight">
                     <img class="img-fluid" src="{{ asset('citrix/assets/img/636x549.jpg') }}" alt=""/>
-               </div>
+                </div>
             </div>
         </div>
     </section>
     <!--work_area-->
 
     <!--mission_area-->
-    <section class="mission_area sec_pad">
+    {{--<section class="mission_area sec_pad">
         <div class="container">
             <div class="section_title text-center">
                 <h6 class="wow fadeInUp">наша миссия</h6>
@@ -76,15 +82,16 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
     <!--mission_area-->
 
     <!--work_area2-->
-    <section class="work_area sec_pad bg_color">
+    {{--<section class="work_area sec_pad bg_color">
         <div class="container">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6 wow fadeInLeft">
-                    <img class="img-fluid" src="{{ asset('citrix/assets/img/about/pexels-rachel-claire-1280x880.jpg') }}"
+                    <img class="img-fluid"
+                         src="{{ asset('citrix/assets/img/about/pexels-rachel-claire-1280x880.jpg') }}"
                          alt=""/>
                 </div>
                 <div class="col-lg-6">
@@ -101,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
     <!--work_area2-->
 
     <!-- skill area -->

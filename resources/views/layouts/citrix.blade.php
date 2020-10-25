@@ -159,18 +159,18 @@
 
 
 
-    <!--theme_promo_area-->
+    {{--<!--theme_promo_area-->
     <section class="theme_promo_area">
         <div class="container">
             <h3>Результат нашей работы — не решение суда с исполнительным листом, а реально возвращенные клиенту денежные средства.</h3>
-            {{--<a href="#" class="theme_w_btn border_btn">узнать больше</a>--}}
+            --}}{{--<a href="#" class="theme_w_btn border_btn">узнать больше</a>--}}{{--
         </div>
     </section>
-    <!--theme_promo_area-->
+    <!--theme_promo_area-->--}}
 
     <!--footer_area-->
     <footer class="footer_area">
-        <div class="footer_top">
+        {{--<div class="footer_top">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
@@ -201,7 +201,7 @@
                                         <a href="#" class="l_date">12 часов назад</a>
                                     </div>
                                 </div>
-                                {{--<div class="media f_latest_item">
+                                --}}{{--<div class="media f_latest_item">
                                     <div class="img_hover">
                                         <i class="fas fa-plus"></i>
                                         <img src="http://lorempixel.com/70/70/">
@@ -212,7 +212,7 @@
                                         </a>
                                         <a href="#" class="l_date">2 дня назад</a>
                                     </div>
-                                </div>--}}
+                                </div>--}}{{--
                             </div>
                         </div>
                     </div>
@@ -317,7 +317,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--}}
         <div class="footer_bottom">
             <div class="container">
                 <div class="row">
@@ -338,9 +338,9 @@
                 </div>
 
                 <div class="row">
-                    <p style="font-size: 0.8em;">ООО "КБ911" является оператором по обработке персональных данных за номером 24-15-002884 (Приказ № 339 от 04.12.2015 года Федеральной службы по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор))</p>
+                    <p style="font-size: 0.8em;">ООО "Коллекторское Бюро 911" является оператором по обработке персональных данных за номером 77-20-018267 (Приказ №  164 от 12.10.2020 года Федеральной службы по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор))</p>
                     <p style="font-size: 0.8em;">Предоставляя свои персональные данные Пользователь даёт согласие на обработку, хранение и использование своих персональных данных на основании ФЗ № 152-ФЗ «О персональных данных»</p>
-                    <p style="font-size: 0.8em;"><a href="/storage/laravel_security.pdf">Политика конфиденциальности</a></p>
+                    {{--<p style="font-size: 0.8em;"><a href="/storage/laravel_security.pdf">Политика конфиденциальности</a></p>--}}
                 </div>
             </div>
         </div>

@@ -964,7 +964,7 @@ header + section {
 }
 
 .breadcrumb_area .overlay_bg {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .bread_content {
