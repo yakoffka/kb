@@ -46,7 +46,7 @@
                                         Приказ о внесении в реестр Роскомнадзора
                                     </h4>
                                 </a>
-                                <a href="blog-details.html" class="post_img">
+                                <a href="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.pdf') }}" class="post_img">
                                     <img src="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.jpg') }}"
                                          alt="Приказ о внесении в реестр Роскомнадзора" width="370"; height="218"/>
                                 </a>
