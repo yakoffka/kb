@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Правка ссылки на документ">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" afterDir="false" />
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Правки контента">
       <change beforePath="$PROJECT_DIR$/resources/views/static_pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/services.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cms_angelcakes" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -210,7 +208,7 @@
       <workItem from="1602932164467" duration="314000" />
       <workItem from="1602932575409" duration="16428000" />
       <workItem from="1603621804662" duration="8000" />
-      <workItem from="1603622520967" duration="20679000" />
+      <workItem from="1603622520967" duration="22171000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -296,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603643023494</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Правки контента">
+      <created>1603646344408</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603646344408</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,17 +328,18 @@
     <MESSAGE value="Правка раздела &quot;Документы&quot;" />
     <MESSAGE value="Правка раздела &quot;Документы&quot;, адреса почты" />
     <MESSAGE value="Правка ссылки на документ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Правка ссылки на документ" />
+    <MESSAGE value="Правки контента" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки контента" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="220" width="483" height="325" key="#Notifications" timestamp="1602341612870">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="436" y="220" width="483" height="325" key="#Notifications/0.27.1366.741@0.27.1366.741" timestamp="1602341612870" />
-    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603032875915">
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603647907064">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603032875915" />
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603647907064" />
     <state x="518" y="305" width="319" height="154" key="NewPhpFileDialog" timestamp="1603633629823">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -346,10 +352,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1603633380167" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603643024911">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603646345965">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603643024911" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603646345965" />
     <state x="389" y="135" width="587" height="546" key="find.popup" timestamp="1603634436585">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
