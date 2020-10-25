@@ -2217,6 +2217,7 @@ header + section {
 .h_blog_post_item .post_img {
   display: block;
   overflow: hidden;
+  text-align: center;
 }
 
 .h_blog_post_item .post_img img {
