@@ -27,12 +27,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    {{--</section>
     <!--documents-->
 
 
     <!--blog area-->
-    <section class="blog_area sec_pad">
+    <section class="blog_area sec_pad">--}}
         <div class="container">
             <div class="row">
                 {{--<div class="col-lg-8 blog_info">--}}
@@ -41,130 +41,30 @@
 
                         <div class="col-lg-4 col-md-4">
                             <div class="h_blog_post_item blog_item">
+                                <a href="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.pdf">
+                                    <h4>
+                                        Приказ о внесении в реестр Роскомнадзора
+                                    </h4>
+                                </a>
                                 <a href="blog-details.html" class="post_img">
-                                    <img src="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.jpg" alt=""/>
+                                    <img src="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.jpg') }}"
+                                         alt="Приказ о внесении в реестр Роскомнадзора" width="370"; height="218"/>
                                 </a>
 
                                 <div class="post_content">
                                     <a href="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.pdf" class="h_post_date">25 Октября 2020 г.</a>
-                                    <a href="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.pdf">
+                                    {{--<a href="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.pdf">
                                         <h3>
                                             Приказ о внесении в реестр Роскомнадзора
                                         </h3>
-                                    </a>
-                                    <div class="h_post_info">
+                                    </a>--}}
+                                    {{--<div class="h_post_info">
                                         <a href="#"><i class="far fa-heart"></i>72</a>
                                         <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>
+                                    </div>--}}
                                 </div>
                             </div>
                         </div>
-
-                        {{--<div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item">
-                                <a href="blog-details.html" class="post_img">
-                                    <img src="{{ asset('citrix/assets/img/documents/th.jpeg') }}" alt=""/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="#" class="h_post_date"><?php echo date('Y M d'); ?></a>
-                                    <!--a href="blog-details.html"--><a href="#">
-                                        <h3>
-                                            Описание документа на две-три строки. Можно больше.
-                                        </h3>
-                                    </a>
-                                    <div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item">
-                                <a href="blog-details.html" class="post_img">
-                                    <img src="{{ asset('citrix/assets/img/documents/th.jpeg') }}" alt=""/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="#" class="h_post_date"><?php echo date('Y M d'); ?></a>
-                                    <!--a href="blog-details.html"--><a href="#">
-                                        <h3>
-                                            Описание документа на две-три строки. Можно больше.
-                                        </h3>
-                                    </a>
-                                    <div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item">
-                                <a href="blog-details.html" class="post_img">
-                                    <img src="{{ asset('citrix/assets/img/documents/th.jpeg') }}" alt=""/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="#" class="h_post_date"><?php echo date('Y M d'); ?></a>
-                                    <!--a href="blog-details.html"--><a href="#">
-                                        <h3>
-                                            Описание документа на две-три строки. Можно больше.
-                                        </h3>
-                                    </a>
-                                    <div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item">
-                                <a href="blog-details.html" class="post_img">
-                                    <img src="{{ asset('citrix/assets/img/documents/th.jpeg') }}" alt=""/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="#" class="h_post_date"><?php echo date('Y M d'); ?></a>
-                                    <!--a href="blog-details.html"--><a href="#">
-                                        <h3>
-                                            Описание документа на две-три строки. Можно больше.
-                                        </h3>
-                                    </a>
-                                    <div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item">
-                                <a href="blog-details.html" class="post_img">
-                                    <img src="{{ asset('citrix/assets/img/documents/th.jpeg') }}" alt=""/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="#" class="h_post_date"><?php echo date('Y M d'); ?></a>
-                                    <!--a href="blog-details.html"--><a href="#">
-                                        <h3>
-                                            Описание документа на две-три строки. Можно больше.
-                                        </h3>
-                                    </a>
-                                    <div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>--}}
-
 
                     </div>
                 </div>
