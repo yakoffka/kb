@@ -9,7 +9,7 @@
         $color2 = '3490dc';
     }
 @endphp
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="200" overflow="visible">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1000" height="220" overflow="visible">
     <g class="signage-logo" opacity="1">
         <defs id="SvgjsDefs1037"></defs>
         <g id="SvgjsG1038" transform="scale(1.2284024125064612)" opacity="1">

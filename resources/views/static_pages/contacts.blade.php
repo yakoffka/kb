@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight">
-                    <img class="img-fluid" src="{{ asset('citrix/assets/img/contacts/contacts1_1280×696.jpg') }}" alt="" />
+                    <img class="img-fluid" src="{{ asset('storage/contacts/contacts1_1280×696.jpg') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                             <div class="media-body">
                                 <h5>Email адрес</h5>
                                 <p>
-                                    <a href="mailto:email@kb911.su">email@kb911.su</a>
+                                    <a href="mailto:email@kb911.su">kb911@kb911.su</a>
                                 </p>
                             </div>
                         </div>

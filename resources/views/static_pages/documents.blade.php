@@ -10,12 +10,12 @@
     <section class="mission_area sec_pad">
         <div class="container">
             <div class="section_title text-center">
-                <h6 class="wow fadeInUp">документы</h6>
+                {{--<h6 class="wow fadeInUp">документы</h6>--}}
                 <h2 class="wow fadeInUp" data-wow-delay="0.2s">
                     Документы
                 </h2>
             </div>
-            <div class="row">
+            {{--<div class="row">
                 <div class="col-lg-12">
                     <p>
                         Здесь представлены различные документы, которые необходимо представлять в таких случаях. Ну и
@@ -25,7 +25,7 @@
                         представлять в в таких случаях. Ну и какой нибудь сопроводительный текст. докумененты документы
                     </p>
                 </div>
-            </div>
+            </div>--}}
         </div>
     {{--</section>
     <!--documents-->
@@ -41,7 +41,7 @@
 
                         <div class="col-lg-4 col-md-4">
                             <div class="h_blog_post_item blog_item">
-                                <a href="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.pdf">
+                                <a href="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.pdf') }}">
                                     <h4>
                                         Приказ о внесении в реестр Роскомнадзора
                                     </h4>

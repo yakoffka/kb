@@ -12,7 +12,7 @@
 
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <h6>Добро пожаловать!</h6>
+                    {{--<h6>Добро пожаловать!</h6>--}}
                     <h2>Добро пожаловать на сайт коллекторского бюро «КБ 911»</h2>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight">
-                    <img class="img-fluid" src="{{ asset('citrix/assets/img/636x549.jpg') }}" alt=""/>
+                    <img class="img-fluid" src="{{ asset('storage/home/businessman-2682712_1105×638.jpg') }}" alt=""/>
                 </div>
             </div>
         </div>

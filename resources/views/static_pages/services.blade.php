@@ -12,8 +12,8 @@
 
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <h6>Финансовый сектор</h6>
-                    <h2>Услуги в сфере финансового сектора</h2>
+                    {{--<h6>Финансовый сектор</h6>--}}
+                    <h2>Услуги</h2>
                 </div>
             </div>
             <div class="about_content pl-0 wow fadeInRight">
