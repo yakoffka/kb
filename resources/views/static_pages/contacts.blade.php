@@ -80,11 +80,16 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="col-lg-6">
                     <div class="contact_inner">
                         <h2>Отправить сообщение</h2>
-                        <form action="contact_process.php" method="post" id="contactForm" novalidate="novalidate"
+                        <form action="{{ route('contactForm.send') }}" method="POST" {{--id="contactForm" novalidate="novalidate"--}}
                               class="row contact_form">
+                            @method('POST')
+                            @csrf
+
                             <div class="col-lg-12 form-group">
                                 <input class="form-control" type="text" id="name" name="name"
                                        placeholder="Ваше имя"/>
@@ -101,9 +106,11 @@
                                           placeholder="Сообщение"></textarea>
                             </div>
                             <div class="col-lg-12 text-right form-group">
-                                <button type="submit" class="theme_btn">
+                                {{--<button type="submit" class="theme_btn">
                                     Отправить сообщение
-                                </button>
+                                </button>--}}
+                                <button type="submit" class="btn btn-primary">отправить</button>
+
                             </div>
                         </form>
                         <div id="success">Your message succesfully sent!</div>
