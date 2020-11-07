@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Правки раздела &quot;Документы&quot;">
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Работа с формой обратной связи. Часть 1&#10;    php artisan make:mail MessageContactForm --markdown=emails.message_contact_form&#10;    php artisan vendor:publish --tag=laravel-mail&#10;    php artisan make:controller ContactFormController&#10;    php artisan make:request MessageContactFormRequest&#10;    создание маршрутов для тестирования и отправки почты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +212,7 @@
       <workItem from="1603917095663" duration="1160000" />
       <workItem from="1604339417671" duration="572000" />
       <workItem from="1604384280199" duration="636000" />
-      <workItem from="1604778415919" duration="10485000" />
+      <workItem from="1604778415919" duration="11110000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -322,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603653273496</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Работа с формой обратной связи. Часть 1&#10;    php artisan make:mail MessageContactForm --markdown=emails.message_contact_form&#10;    php artisan vendor:publish --tag=laravel-mail&#10;    php artisan make:controller ContactFormController&#10;    php artisan make:request MessageContactFormRequest&#10;    создание маршрутов для тестирования и отправки почты">
+      <created>1604791384728</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604791384728</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +355,8 @@
     <MESSAGE value="Правка ссылки на документ" />
     <MESSAGE value="Правки контента" />
     <MESSAGE value="Правки раздела &quot;Документы&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Правки раздела &quot;Документы&quot;" />
+    <MESSAGE value="Работа с формой обратной связи. Часть 1&#10;    php artisan make:mail MessageContactForm --markdown=emails.message_contact_form&#10;    php artisan vendor:publish --tag=laravel-mail&#10;    php artisan make:controller ContactFormController&#10;    php artisan make:request MessageContactFormRequest&#10;    создание маршрутов для тестирования и отправки почты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа с формой обратной связи. Часть 1&#10;    php artisan make:mail MessageContactForm --markdown=emails.message_contact_form&#10;    php artisan vendor:publish --tag=laravel-mail&#10;    php artisan make:controller ContactFormController&#10;    php artisan make:request MessageContactFormRequest&#10;    создание маршрутов для тестирования и отправки почты" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="220" width="483" height="325" key="#Notifications" timestamp="1602341612870">
@@ -378,10 +383,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604791093635" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603653275362">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604791386656">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603653275362" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604791386656" />
+    <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604791290671">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1604791290671" />
     <state x="389" y="135" width="587" height="546" key="find.popup" timestamp="1604784953659">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
