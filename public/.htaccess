@@ -9,7 +9,7 @@
     RewriteCond %{HTTP:X-Forwarded-Proto} !https
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 
-    RewriteCond %{HTTP_HOST} !^kb911.su
+    RewriteCond %{HTTP_HOST} ^www.kb911.su
     RewriteRule ^(.*) kb911.su/$1 [R=301,L]
 
 
