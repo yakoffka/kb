@@ -1,25 +1,20 @@
-{{--@component('mail::message')
-# Introduction
-
-The body of your message.
-
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
-
-Thanks,<br>
-{{ config('app.name') }}
-@endcomponent--}}
-
 @component('mail::message')
-# Получено сообщение через форму обратной связи
+# Сообщение от пользователя
 
-@component('mail::table')
-    | Laravel       | Table         | Example  |
-    | ------------- |:-------------:| --------:|
-    | Col 2 is      | Centered      | $10      |
-    | Col 3 is      | Right-Aligned | $20      |
-@endcomponent
+<table>
+    <tr>
+        <th>Пользователь</th>
+        <td>{{ $messageData['name'] }}</td>
+    </tr>
+    <tr>
+        <th>email</th>
+        <td>{{ $messageData['email'] }}</td>
+    </tr>
+    <tr>
+        <th>Тема</th>
+        <td>{{ $messageData['subject'] }}</td>
+    </tr>
+</table>
 
 
 {{ $messageData['message'] }}

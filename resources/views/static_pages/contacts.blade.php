@@ -85,7 +85,7 @@
                 <div class="col-lg-6">
                     <div class="contact_inner">
                         <h2>Отправить сообщение</h2>
-                        <form action="{{ route('contactForm.send') }}" method="POST" {{--id="contactForm" novalidate="novalidate"--}}
+                        <form action="{{ route('contactForm.testSend') }}" method="POST" {{--id="contactForm" novalidate="novalidate"--}}
                               class="row contact_form">
                             @method('POST')
                             @csrf
