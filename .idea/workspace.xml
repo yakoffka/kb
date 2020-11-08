@@ -19,9 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Работа с формой обратной связи. Часть 2 Правки">
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Публикация и кастомизация (изменение цвета фона на белый и отмена uppercase) страницы ошибок&#10;    php artisan vendor:publish --tag=laravel-errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MessageContactFormRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MessageContactFormRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/MessageContactForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/MessageContactForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/message_contact_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/message_contact_form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +219,7 @@
       <workItem from="1603917095663" duration="1160000" />
       <workItem from="1604339417671" duration="572000" />
       <workItem from="1604384280199" duration="636000" />
-      <workItem from="1604778415919" duration="14522000" />
+      <workItem from="1604778415919" duration="15581000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -334,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604792223174</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Публикация и кастомизация (изменение цвета фона на белый и отмена uppercase) страницы ошибок&#10;    php artisan vendor:publish --tag=laravel-errors">
+      <created>1604795319498</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604795319498</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +378,8 @@
     <MESSAGE value="Правки раздела &quot;Документы&quot;" />
     <MESSAGE value="Работа с формой обратной связи. Часть 1&#10;    php artisan make:mail MessageContactForm --markdown=emails.message_contact_form&#10;    php artisan vendor:publish --tag=laravel-mail&#10;    php artisan make:controller ContactFormController&#10;    php artisan make:request MessageContactFormRequest&#10;    создание маршрутов для тестирования и отправки почты" />
     <MESSAGE value="Работа с формой обратной связи. Часть 2 Правки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работа с формой обратной связи. Часть 2 Правки" />
+    <MESSAGE value="Публикация и кастомизация (изменение цвета фона на белый и отмена uppercase) страницы ошибок&#10;    php artisan vendor:publish --tag=laravel-errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Публикация и кастомизация (изменение цвета фона на белый и отмена uppercase) страницы ошибок&#10;    php artisan vendor:publish --tag=laravel-errors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="220" width="483" height="325" key="#Notifications" timestamp="1602341612870">
@@ -392,10 +406,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604791093635" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604792224582">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604795321518">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604792224582" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604795321518" />
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604791290671">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

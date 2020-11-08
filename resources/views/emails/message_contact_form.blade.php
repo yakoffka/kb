@@ -12,10 +12,18 @@ Thanks,<br>
 @endcomponent--}}
 
 @component('mail::message')
-# Message from ContactForm
+# Получено сообщение через форму обратной связи
+
+@component('mail::table')
+    | Laravel       | Table         | Example  |
+    | ------------- |:-------------:| --------:|
+    | Col 2 is      | Centered      | $10      |
+    | Col 3 is      | Right-Aligned | $20      |
+@endcomponent
+
 
 {{ $messageData['message'] }}
 
-Thanks, {{ config('app.name') }}
+Данное сообщение отправлено через форму обратной связи на сайте {{ config('app.name') }}
 @endcomponent
 

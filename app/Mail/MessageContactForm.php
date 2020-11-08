@@ -28,7 +28,7 @@ class MessageContactForm extends Mailable
      *
      * @return $this
      */
-    public function build()
+    public function build(): self
     {
         return $this->markdown('emails.message_contact_form');
     }

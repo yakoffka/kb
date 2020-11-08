@@ -32,8 +32,8 @@ Route::get('/contacts', fn() => view('static_pages.contacts'))->name('contacts')
 
 Route::post('send', [ContactFormController::class, 'sendEmail'])->name('contactForm.send');
 // тестирование разметки email
-//Route::any('/testMessageContactForm', function (MessageContactFormRequest $request) {
-//    $messageData = $request->validated();
-//    //dd($messageData);
-//    return new MessageContactForm($messageData);
-//})->name('contactForm.testsend');
+Route::any('/testMessageContactForm', function (MessageContactFormRequest $request) {
+    $messageData = $request->validated();
+    //dd($messageData);
+    return new MessageContactForm($messageData);
+})->name('contactForm.testSend');
