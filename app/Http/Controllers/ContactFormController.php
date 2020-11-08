@@ -16,8 +16,8 @@ class ContactFormController extends Controller
     public function sendEmail(MessageContactFormRequest $request): RedirectResponse
     {
         Mail::to(config('mail.custom.to'))
-            ->send(new MessageContactForm($request->validated()))
-            ->bcc('yagithub@mail.ru');
+            ->bcc('yagithub@mail.ru')
+            ->send(new MessageContactForm($request->validated()));
         return redirect()->route('about');
     }
 }

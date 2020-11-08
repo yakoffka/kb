@@ -1,7 +1,7 @@
 @component('mail::message')
 # Сообщение от пользователя
 
-<table>
+<table class="table_kb">
     <tr>
         <th>Пользователь</th>
         <td>{{ $messageData['name'] }}</td>
@@ -19,6 +19,8 @@
 
 {{ $messageData['message'] }}
 
-Данное сообщение отправлено через форму обратной связи на сайте {{ config('app.name') }}
+<p class="notify">
+    Сообщение отправлено через форму обратной связи сайта {{ config('app.url') }}
+</p>
 @endcomponent
 
