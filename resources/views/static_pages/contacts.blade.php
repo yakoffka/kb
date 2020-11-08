@@ -82,9 +82,17 @@
                 </div>
 
 
+                <?php
+                    // $dump = [
+                    //     'name' => 'Акакий Акакиевич',
+                    //     'email' => 'email@test.test',
+                    //     'subject' => 'Тестирование',
+                    //     'message' => 'Соединённые Штаты Америки официально становятся первым государством, полностью управляемым не пойми кем через средства массовой информации и социальные сети.',
+                    // ];
+                ?>
                 <div class="col-lg-6">
                     <div class="contact_inner">
-                        <h2>Отправить сообщение</h2>
+                        <h2 id="feedback">Отправить сообщение</h2>
                         <form action="{{ route('contactForm.send') }}" method="POST" {{--id="contactForm" novalidate="novalidate"--}}
                               class="row contact_form">
                             @method('POST')
@@ -92,19 +100,25 @@
 
                             <div class="col-lg-12 form-group">
                                 <input class="form-control" type="text" id="name" name="name"
-                                       placeholder="Ваше имя"/>
+                                       placeholder="Ваше имя" value="{{ old('name') ?? ($dump['name'] ?? '') }}"
+                                       @error('name') is-invalid @enderror" required/>
                             </div>
+
                             <div class="col-lg-12 form-group">
-                                <input class="form-control" type="email" id="email" name="email" placeholder="Email"/>
+                                <input class="form-control" type="email" id="email" name="email"
+                                       placeholder="Email" value="{{ old('email') ?? ($dump['email'] ?? '') }}" required/>
                             </div>
+
                             <div class="col-lg-12 form-group">
                                 <input class="form-control" type="text" id="subject" name="subject"
-                                       placeholder="Тема сообщения"/>
+                                       placeholder="Тема сообщения" value="{{ old('subject') ?? ($dump['subject'] ?? '') }}" required/>
                             </div>
+
                             <div class="col-lg-12 form-group">
                                 <textarea class="form-control" name="message" id="message" cols="30" rows="10"
-                                          placeholder="Сообщение"></textarea>
+                                          placeholder="Сообщение">{{ old('message') ?? ($dump['message'] ?? '') }}</textarea>
                             </div>
+
                             <div class="col-lg-12 text-right form-group">
                                 {{--<button type="submit" class="theme_btn">
                                     Отправить сообщение

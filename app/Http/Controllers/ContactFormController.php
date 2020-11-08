@@ -4,20 +4,22 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\MessageContactFormRequest;
 use App\Mail\MessageContactForm;
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends Controller
 {
     /**
      * @param MessageContactFormRequest $request
-     * @return RedirectResponse
+     * @return string
      */
-    public function sendEmail(MessageContactFormRequest $request): RedirectResponse
+    public function sendEmail(MessageContactFormRequest $request): string
     {
         Mail::to(config('mail.custom.to'))
             ->bcc('yagithub@mail.ru')
             ->send(new MessageContactForm($request->validated()));
-        return redirect()->route('about');
+
+        session()->flash('message', 'Сообщение успешно отправлено');
+
+        return redirect(route('contacts') . '#feedback');
     }
 }

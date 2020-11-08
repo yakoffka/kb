@@ -154,21 +154,47 @@
     <!--breadcrumb_area-->
 
 
+    <div class="container">
+        <div class="position-fixed" style="top: 2em; right: 2em; z-index: 101; opacity: 95%;">
+            @if( session('message'))
+                <div class="fixed_alert alert alert-success alert-dismissible fade show" role="alert">
+                    {!! session('message') !!}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
 
-    @yield('content')
-
-
-
-    {{--<!--theme_promo_area-->
-    <section class="theme_promo_area">
-        <div class="container">
-            <h3>Результат нашей работы — не решение суда с исполнительным листом, а реально возвращенные клиенту денежные средства.</h3>
-            --}}{{--<a href="#" class="theme_w_btn border_btn">узнать больше</a>--}}{{--
+            @if ($errors->any())
+                <div class="fixed_alert alert alert-danger alert-dismissible fade show" role="alert">
+                    <ol>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ol>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            @endif
         </div>
-    </section>
-    <!--theme_promo_area-->--}}
+    </div>
 
-    <!--footer_area-->
+
+@yield('content')
+
+
+
+{{--<!--theme_promo_area-->
+<section class="theme_promo_area">
+    <div class="container">
+        <h3>Результат нашей работы — не решение суда с исполнительным листом, а реально возвращенные клиенту денежные средства.</h3>
+        --}}{{--<a href="#" class="theme_w_btn border_btn">узнать больше</a>--}}{{--
+    </div>
+</section>
+<!--theme_promo_area-->--}}
+
+<!--footer_area-->
     <footer class="footer_area">
         {{--<div class="footer_top">
             <div class="container">
@@ -338,8 +364,12 @@
                 </div>
 
                 <div class="row">
-                    <p style="font-size: 0.8em;">ООО "Коллекторское Бюро 911" является оператором по обработке персональных данных за номером 77-20-018267 (Приказ №  164 от 12.10.2020 года Федеральной службы по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор))</p>
-                    <p style="font-size: 0.8em;">Предоставляя свои персональные данные Пользователь даёт согласие на обработку, хранение и использование своих персональных данных на основании ФЗ № 152-ФЗ «О персональных данных»</p>
+                    <p style="font-size: 0.8em;">ООО "Коллекторское Бюро 911" является оператором по обработке
+                        персональных данных за номером 77-20-018267 (Приказ № 164 от 12.10.2020 года Федеральной службы
+                        по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор))</p>
+                    <p style="font-size: 0.8em;">Предоставляя свои персональные данные Пользователь даёт согласие на
+                        обработку, хранение и использование своих персональных данных на основании ФЗ № 152-ФЗ «О
+                        персональных данных»</p>
                     {{--<p style="font-size: 0.8em;"><a href="/storage/laravel_security.pdf">Политика конфиденциальности</a></p>--}}
                 </div>
             </div>

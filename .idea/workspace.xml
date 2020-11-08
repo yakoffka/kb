@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Работа с формой обратной связи. Часть 4 Правка стилей шаблона письма">
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Работа с формой обратной связи. Часть 5 Настройка получателя">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MessageContactFormRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MessageContactFormRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/citrix.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/citrix.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +216,7 @@
       <workItem from="1603917095663" duration="1160000" />
       <workItem from="1604339417671" duration="572000" />
       <workItem from="1604384280199" duration="636000" />
-      <workItem from="1604778415919" duration="19007000" />
+      <workItem from="1604778415919" duration="25876000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -362,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604823805286</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Работа с формой обратной связи. Часть 5 Настройка получателя">
+      <created>1604824129390</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604824129390</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +407,8 @@
     <MESSAGE value="Работа с формой обратной связи. Часть 2&#10;    тестирование качества почты перед попытками его улучшения" />
     <MESSAGE value="Работа с формой обратной связи. Часть 3 Правка шаблона письма" />
     <MESSAGE value="Работа с формой обратной связи. Часть 4 Правка стилей шаблона письма" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работа с формой обратной связи. Часть 4 Правка стилей шаблона письма" />
+    <MESSAGE value="Работа с формой обратной связи. Часть 5 Настройка получателя" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа с формой обратной связи. Часть 5 Настройка получателя" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="220" width="483" height="325" key="#Notifications" timestamp="1602341612870">
@@ -420,14 +431,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="194" y="27" width="977" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1604785989271" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1604822015576">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1604826106727">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604822015576" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604823808574">
+    <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604826106727" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604824130839">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604823808574" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604824130839" />
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604791290671">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
