@@ -1,6 +1,8 @@
 <!DOCTYPE html>{{-- оригинал: http://csvisual.com/citrix-new/citrix/ --}}{{-- https://bootstraptema.ru/stuff/templates_bootstrap/blog/citrix/5-1-0-4022--}}
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+    <!-- https://webmaster.yandex.ru/ -->
+    <meta name="yandex-verification" content="b38b8e33e1756ba0" />
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
