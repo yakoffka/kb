@@ -10,7 +10,7 @@
     RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 
     RewriteCond %{HTTP_HOST} ^www.kb911.su
-    RewriteRule ^(.*) kb911.su/$1 [R=301,L]
+    RewriteRule ^ https://kb911.su/$1 [R=301,L]
 
 
     # Handle Authorization Header
