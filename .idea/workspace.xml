@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Работа с формой обратной связи. Часть 3 Правка шаблона письма">
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Работа с формой обратной связи. Часть 4 Правка стилей шаблона письма">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/message_contact_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/message_contact_form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/mail/html/themes/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/themes/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +213,7 @@
       <workItem from="1603917095663" duration="1160000" />
       <workItem from="1604339417671" duration="572000" />
       <workItem from="1604384280199" duration="636000" />
-      <workItem from="1604778415919" duration="18820000" />
+      <workItem from="1604778415919" duration="19007000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -357,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604822164567</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Работа с формой обратной связи. Часть 4 Правка стилей шаблона письма">
+      <created>1604823805286</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604823805286</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +396,8 @@
     <MESSAGE value="Публикация и кастомизация (изменение цвета фона на белый и отмена uppercase) страницы ошибок&#10;    php artisan vendor:publish --tag=laravel-errors" />
     <MESSAGE value="Работа с формой обратной связи. Часть 2&#10;    тестирование качества почты перед попытками его улучшения" />
     <MESSAGE value="Работа с формой обратной связи. Часть 3 Правка шаблона письма" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работа с формой обратной связи. Часть 3 Правка шаблона письма" />
+    <MESSAGE value="Работа с формой обратной связи. Часть 4 Правка стилей шаблона письма" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работа с формой обратной связи. Часть 4 Правка стилей шаблона письма" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="220" width="483" height="325" key="#Notifications" timestamp="1602341612870">
@@ -418,10 +424,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604822015576" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604822166599">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604823808574">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604822166599" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1604823808574" />
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604791290671">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
