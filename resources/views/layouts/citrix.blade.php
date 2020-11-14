@@ -195,20 +195,23 @@
 </section>
 <!--theme_promo_area-->--}}
 
-    <section class="informers">
-        <div class="container">
-            <!-- Yandex.Metrika informer -->
-            <a href="https://metrika.yandex.ru/stat/?id=69401524&amp;from=informer"
-               target="_blank" rel="nofollow"><img
-                    src="https://informer.yandex.ru/informer/69401524/3_1_FFFFFFFF_FFFFFFFF_0_pageviews"
-                    style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
-                    title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"
-                    class="ym-advanced-informer" data-cid="69401524" data-lang="ru"/></a>
-            <!-- /Yandex.Metrika informer -->
-        </div>
-    </section>
 
-    <!--footer_area-->
+
+{{--<section class="informers">
+    <div class="container">
+        <!-- Yandex.Metrika informer -->
+        <a href="https://metrika.yandex.ru/stat/?id=69401524&amp;from=informer" target="_blank" rel="nofollow">
+            <img src="https://informer.yandex.ru/informer/69401524/3_1_FFFFFFFF_FFFFFFFF_0_pageviews"
+                 style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
+                 title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"
+                 class="ym-advanced-informer" data-cid="69401524" data-lang="ru"/>
+        </a>
+        <!-- /Yandex.Metrika informer -->
+    </div>
+</section>--}}
+
+
+<!--footer_area-->
     <footer class="footer_area">
         {{--<div class="footer_top">
             <div class="container">
@@ -361,7 +364,7 @@
         <div class="footer_bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-md-6">
+                    <div class="col-lg-5 col-md-5">
                         <p>
                             Copyright ©
                             <script>
@@ -370,7 +373,18 @@
                             <a href="https://0b1101.site"> YoStudio</a>. All Rights Reserved.
                         </p>
                     </div>
-                    <div class="col-lg-7 col-md-6">
+                    <div class="col-lg-1 col-md-1">
+                        <!-- Yandex.Metrika informer -->
+                        <a href="https://metrika.yandex.ru/stat/?id=69401524&amp;from=informer" target="_blank" rel="nofollow">
+                            <img src="https://informer.yandex.ru/informer/69401524/3_1_212028FF_212028FF_1_pageviews"
+                                 style="width:88px; height:31px; border:0;" {{--alt="Яндекс.Метрика"
+                                 title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"--}}
+                                 class="ym-advanced-informer" data-cid="69401524" data-lang="ru"/>
+                            {{--<div class="informer_dump" style="width: 88px; height: 31px; background: crimson;"></div>--}}
+                        </a>
+                        <!-- /Yandex.Metrika informer -->
+                    </div>
+                    <div class="col-lg-6 col-md-6">
                         <ul class="f_menu list-unstyled">
                             @include('menus.main')
                         </ul>
@@ -393,6 +407,7 @@
 </div>
 
 
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (m, e, t, r, i, k, a) {
@@ -407,7 +422,8 @@
     ym(69401524, "init", {
         clickmap: true,
         trackLinks: true,
-        accurateTrackBounce: true
+        accurateTrackBounce: true,
+        webvisor: true
     });
 </script>
 <noscript>
