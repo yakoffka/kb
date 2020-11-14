@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <!-- https://webmaster.yandex.ru/ -->
-    <meta name="yandex-verification" content="b38b8e33e1756ba0" />
+    <meta name="yandex-verification" content="b38b8e33e1756ba0"/>
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -182,7 +182,6 @@
         </div>
     </div>
 
-
 @yield('content')
 
 
@@ -196,7 +195,20 @@
 </section>
 <!--theme_promo_area-->--}}
 
-<!--footer_area-->
+    <section class="informers">
+        <div class="container">
+            <!-- Yandex.Metrika informer -->
+            <a href="https://metrika.yandex.ru/stat/?id=69401524&amp;from=informer"
+               target="_blank" rel="nofollow"><img
+                    src="https://informer.yandex.ru/informer/69401524/3_1_FFFFFFFF_FFFFFFFF_0_pageviews"
+                    style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
+                    title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"
+                    class="ym-advanced-informer" data-cid="69401524" data-lang="ru"/></a>
+            <!-- /Yandex.Metrika informer -->
+        </div>
+    </section>
+
+    <!--footer_area-->
     <footer class="footer_area">
         {{--<div class="footer_top">
             <div class="container">
@@ -379,6 +391,29 @@
     </footer>
     <!--footer_area-->
 </div>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(69401524, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/69401524" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
