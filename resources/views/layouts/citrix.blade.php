@@ -7,15 +7,6 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="shortcut icon" href="citrix/assets/img/favicon2.png"/>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="citrix/assets/vendors/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="citrix/assets/vendors/fontawesome/css/all.min.css"/>
-    <link rel="stylesheet" href="citrix/assets/vendors/slick/slick.css"/>
-    <link rel="stylesheet" href="citrix/assets/vendors/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="citrix/assets/vendors/magnify-popup/magnific-popup.css"/>
-    <link rel="stylesheet" href="citrix/assets/vendors/circle-progressbar/circularprogress.css"/>
-    <link rel="stylesheet" href="citrix/assets/css/style.css"/>
-    <link rel="stylesheet" href="citrix/assets/css/responsive.css"/>
 
     <title>{{ config('app.name', 'Laravel') }} - @yield('title')</title>
 </head>
@@ -376,11 +367,15 @@
                         <!-- /Yandex.Metrika informer -->
                     </div>
                     <div class="col-lg-5 col-md-5">
-                        <p>
+                        {{--<p>
                             Copyright ©
                             <script>
                                 document.write(new Date().getFullYear());
                             </script>
+                            <a href="https://0b1101.site"> YoStudio</a>. All Rights Reserved.
+                        </p>--}}
+                        <p>
+                            Copyright © <?php echo date("Y");?>
                             <a href="https://0b1101.site"> YoStudio</a>. All Rights Reserved.
                         </p>
                     </div>
@@ -405,6 +400,18 @@
     </footer>
     <!--footer_area-->
 </div>
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="citrix/assets/vendors/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="citrix/assets/vendors/fontawesome/css/all.min.css"/>
+<link rel="stylesheet" href="citrix/assets/vendors/slick/slick.css"/>
+<link rel="stylesheet" href="citrix/assets/vendors/slick/slick-theme.css"/>
+<link rel="stylesheet" href="citrix/assets/vendors/magnify-popup/magnific-popup.css"/>
+<link rel="stylesheet" href="citrix/assets/vendors/circle-progressbar/circularprogress.css"/>
+<link rel="stylesheet" href="citrix/assets/css/style.css"/>
+<link rel="stylesheet" href="citrix/assets/css/responsive.css"/>
+
 
 
 
