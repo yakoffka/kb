@@ -1,8 +1,9 @@
 @extends('layouts.' . (config('view.theme') ?? 'app') )
 
-@section('title', __('Contacts'))
+@section('title', 'Контактная информация коллекторского бюро КБ 911')
 
-@section('description', config('custom.main_description'))
+@section('description', config('custom.main_description')
+    . 'Контакты коллекторского бюро КБ 911. Обратная связь, коллекторское бюро КБ 911 на карте, адреса и телефоны.')
 
 @section('content')
 

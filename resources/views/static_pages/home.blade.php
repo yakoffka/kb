@@ -1,8 +1,11 @@
 @extends('layouts.' . (config('view.theme') ?? 'app') )
 
-@section('title', __('Home'))
+@section('title', 'Официальный сайт ООО «КБ 911»')
 
-@section('description', config('custom.main_description'))
+@section('description',
+    'Взыскание просроченной задолженности. Профессионализм и индивидуальный подход. '
+    . config('custom.main_description')
+    )
 
 @section('content')
 

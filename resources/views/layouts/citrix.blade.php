@@ -1,11 +1,12 @@
 <!DOCTYPE html>{{-- оригинал: http://csvisual.com/citrix-new/citrix/ --}}{{-- https://bootstraptema.ru/stuff/templates_bootstrap/blog/citrix/5-1-0-4022--}}
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <!-- https://webmaster.yandex.ru/ -->
-    <meta name="yandex-verification" content="b38b8e33e1756ba0"/>
+    {{--<!-- https://webmaster.yandex.ru/ переместил верификацию в dns записи-->--}}
+    {{--<meta name="yandex-verification" content="b38b8e33e1756ba0"/>--}}
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="@yield('description')"/>
     <link rel="shortcut icon" href="citrix/assets/img/favicon2.png"/>
 
     <!-- Bootstrap CSS -->
@@ -18,8 +19,8 @@
     <link rel="stylesheet" href="citrix/assets/css/style.css"/>
     <link rel="stylesheet" href="citrix/assets/css/responsive.css"/>
 
-
     <title>{{ config('app.name', 'Laravel') }} - @yield('title')</title>
+
 </head>
 
 <body>
@@ -368,7 +369,8 @@
                 <div class="row">
                     <div class="col-lg-1 col-md-1 pl-0">
                         <!-- Yandex.Metrika informer -->
-                        <a href="https://metrika.yandex.ru/stat/?id=69401524&amp;from=informer" target="_blank" rel="nofollow">
+                        <a href="https://metrika.yandex.ru/stat/?id=69401524&amp;from=informer" target="_blank"
+                           rel="nofollow">
                             <img src="https://informer.yandex.ru/informer/69401524/3_1_212028FF_212028FF_1_pageviews"
                                  style="width:88px; height:31px; border:0;" {{--alt="Яндекс.Метрика"
                                  title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"--}}
@@ -411,8 +413,6 @@
     </footer>
     <!--footer_area-->
 </div>
-
-
 
 
 <!-- Yandex.Metrika counter -->

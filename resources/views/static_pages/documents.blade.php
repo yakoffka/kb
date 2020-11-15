@@ -1,8 +1,11 @@
 @extends('layouts.' . (config('view.theme') ?? 'app') )
 
-@section('title', __('Documents'))
+@section('title', 'Документы, регламентирующие работу КБ 911')
 
-@section('description', config('custom.main_description'))
+@section('description',
+    'Приказы, положения и политика обработки персональных данных - основные документы, регламентирующие работу КБ 911. '
+    . config('custom.main_description')
+    )
 
 @section('content')
 
