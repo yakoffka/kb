@@ -364,16 +364,7 @@
         <div class="footer_bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-md-5">
-                        <p>
-                            Copyright ©
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            <a href="https://0b1101.site"> YoStudio</a>. All Rights Reserved.
-                        </p>
-                    </div>
-                    <div class="col-lg-1 col-md-1">
+                    <div class="col-lg-1 col-md-1 pl-0">
                         <!-- Yandex.Metrika informer -->
                         <a href="https://metrika.yandex.ru/stat/?id=69401524&amp;from=informer" target="_blank" rel="nofollow">
                             <img src="https://informer.yandex.ru/informer/69401524/3_1_212028FF_212028FF_1_pageviews"
@@ -383,6 +374,15 @@
                             {{--<div class="informer_dump" style="width: 88px; height: 31px; background: crimson;"></div>--}}
                         </a>
                         <!-- /Yandex.Metrika informer -->
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <p>
+                            Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            <a href="https://0b1101.site"> YoStudio</a>. All Rights Reserved.
+                        </p>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <ul class="f_menu list-unstyled">
