@@ -39,7 +39,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight">
-                    <img class="img-fluid" src="{{ asset('storage/home/businessman-2682712_1105×638.jpg') }}" alt=""/>
+                    <img class="img-fluid" src="{{ asset('storage/home/businessman-800×638.jpg') }}"
+                         alt="ООО «КБ 911» независимое коллекторское бюро"/>
                 </div>
             </div>
         </div>

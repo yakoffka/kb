@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Добавление кода яндекс метрики">
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Сжатие фонового изображения шапки сайта">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/citrix.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/citrix.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +215,7 @@
       <workItem from="1604339417671" duration="572000" />
       <workItem from="1604384280199" duration="636000" />
       <workItem from="1604778415919" duration="32984000" />
-      <workItem from="1605361933665" duration="12037000" />
+      <workItem from="1605361933665" duration="14125000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -433,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605398974021</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Добавление кода яндекс метрики">
+      <created>1605401085308</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1605401085308</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Сжатие фонового изображения шапки сайта">
+      <created>1605401613301</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1605401613301</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +488,8 @@
     <MESSAGE value="Изменение .htaccess: добавление переадресации на https и удаление префикса www" />
     <MESSAGE value="Подтверждение прав на kb911.su для&#10; webmaster.yandex.ru" />
     <MESSAGE value="Добавление кода яндекс метрики" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление кода яндекс метрики" />
+    <MESSAGE value="Сжатие фонового изображения шапки сайта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сжатие фонового изображения шапки сайта" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="220" width="483" height="325" key="#Notifications" timestamp="1602341612870">
@@ -500,10 +516,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604837127375" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605398976078">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605401615592">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1605398976078" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1605401615592" />
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604791290671">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

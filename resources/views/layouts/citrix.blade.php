@@ -8,6 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="shortcut icon" href="citrix/assets/img/favicon2.png"/>
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="citrix/assets/vendors/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="citrix/assets/vendors/fontawesome/css/all.min.css"/>
+    {{--<link rel="stylesheet" href="citrix/assets/vendors/slick/slick.css"/>
+    <link rel="stylesheet" href="citrix/assets/vendors/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="citrix/assets/vendors/magnify-popup/magnific-popup.css"/>
+    <link rel="stylesheet" href="citrix/assets/vendors/circle-progressbar/circularprogress.css"/>--}}
+    <link rel="stylesheet" href="citrix/assets/css/style.css"/>
+    <link rel="stylesheet" href="citrix/assets/css/responsive.css"/>
+
+
     <title>{{ config('app.name', 'Laravel') }} - @yield('title')</title>
 </head>
 
@@ -402,17 +413,6 @@
 </div>
 
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="citrix/assets/vendors/bootstrap/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="citrix/assets/vendors/fontawesome/css/all.min.css"/>
-<link rel="stylesheet" href="citrix/assets/vendors/slick/slick.css"/>
-<link rel="stylesheet" href="citrix/assets/vendors/slick/slick-theme.css"/>
-<link rel="stylesheet" href="citrix/assets/vendors/magnify-popup/magnific-popup.css"/>
-<link rel="stylesheet" href="citrix/assets/vendors/circle-progressbar/circularprogress.css"/>
-<link rel="stylesheet" href="citrix/assets/css/style.css"/>
-<link rel="stylesheet" href="citrix/assets/css/responsive.css"/>
-
-
 
 
 <!-- Yandex.Metrika counter -->
@@ -441,14 +441,14 @@
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="citrix/assets/js/jquery-3.4.1.min.js"></script>
-<script src="citrix/assets/vendors/bootstrap/js/popper.min.js"></script>
+{{--<script src="citrix/assets/vendors/bootstrap/js/popper.min.js"></script>--}}
 <script src="citrix/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-<script src="citrix/assets/vendors/slick/slick.min.js"></script>
+{{--<script src="citrix/assets/vendors/slick/slick.min.js"></script>--}}
 <script src="citrix/assets/js/parallaxie.js"></script>
-<script src="citrix/assets/vendors/circle-progressbar/jquery.waypoints.min.js"></script>
-<script src="citrix/assets/vendors/circle-progressbar/jquery.counterup.min.js"></script>
-<script src="citrix/assets/vendors/circle-progressbar/circle-progress.js"></script>
-<script src="citrix/assets/vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
+{{--<script src="citrix/assets/vendors/circle-progressbar/jquery.waypoints.min.js"></script>--}}
+{{--<script src="citrix/assets/vendors/circle-progressbar/jquery.counterup.min.js"></script>--}}
+{{--<script src="citrix/assets/vendors/circle-progressbar/circle-progress.js"></script>--}}
+{{--<script src="citrix/assets/vendors/magnify-popup/jquery.magnific-popup.min.js"></script>--}}
 <!--gmaps Js-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&ver=2.1.6"></script>
 <script src="citrix/assets/js/gmaps.min.js"></script>
