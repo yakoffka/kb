@@ -1,23 +1,21 @@
 <!DOCTYPE html>{{-- оригинал: http://csvisual.com/citrix-new/citrix/ --}}{{-- https://bootstraptema.ru/stuff/templates_bootstrap/blog/citrix/5-1-0-4022--}}
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    {{--<!-- https://webmaster.yandex.ru/ переместил верификацию в dns записи-->--}}
-    {{--<meta name="yandex-verification" content="b38b8e33e1756ba0"/>--}}
+
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="description" content="@yield('description')"/>
     <link rel="shortcut icon" href="citrix/assets/img/favicon2.png"/>
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="citrix/assets/vendors/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="citrix/assets/vendors/fontawesome/css/all.min.css"/>
-    {{--<link rel="stylesheet" href="citrix/assets/vendors/slick/slick.css"/>
+    <link rel="stylesheet" href="citrix/assets/vendors/slick/slick.css"/>
     <link rel="stylesheet" href="citrix/assets/vendors/slick/slick-theme.css"/>
     <link rel="stylesheet" href="citrix/assets/vendors/magnify-popup/magnific-popup.css"/>
-    <link rel="stylesheet" href="citrix/assets/vendors/circle-progressbar/circularprogress.css"/>--}}
+    <link rel="stylesheet" href="citrix/assets/vendors/circle-progressbar/circularprogress.css"/>
     <link rel="stylesheet" href="citrix/assets/css/style.css"/>
     <link rel="stylesheet" href="citrix/assets/css/responsive.css"/>
+
 
     <title>{{ config('app.name', 'Laravel') }} - @yield('title')</title>
 
@@ -380,13 +378,6 @@
                         <!-- /Yandex.Metrika informer -->
                     </div>
                     <div class="col-lg-5 col-md-5">
-                        {{--<p>
-                            Copyright ©
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            <a href="https://0b1101.site"> YoStudio</a>. All Rights Reserved.
-                        </p>--}}
                         <p>
                             Copyright © <?php echo date("Y");?>
                             <a href="https://0b1101.site"> YoStudio</a>. All Rights Reserved.
@@ -415,6 +406,28 @@
 </div>
 
 
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="citrix/assets/js/jquery-3.4.1.min.js"></script>
+<script src="citrix/assets/vendors/bootstrap/js/popper.min.js"></script>
+<script src="citrix/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="citrix/assets/vendors/slick/slick.min.js"></script>
+<script src="citrix/assets/js/parallaxie.js"></script>
+<script src="citrix/assets/vendors/circle-progressbar/jquery.waypoints.min.js"></script>
+<script src="citrix/assets/vendors/circle-progressbar/jquery.counterup.min.js"></script>
+<script src="citrix/assets/vendors/circle-progressbar/circle-progress.js"></script>
+<script src="citrix/assets/vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
+<!--gmaps Js-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&ver=2.1.6"></script>
+<script src="citrix/assets/js/gmaps.min.js"></script>
+<script src="citrix/assets/js/map-active.js"></script>
+<!-- contact js -->
+<script src="citrix/assets/js/jquery.form.js"></script>
+<script src="citrix/assets/js/jquery.validate.min.js"></script>
+<script src="citrix/assets/js/contact.js"></script>
+<script src="citrix/assets/vendors/wow/wow.min.js"></script>
+<script src="citrix/assets/js/main.js"></script>
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (m, e, t, r, i, k, a) {
@@ -438,27 +451,17 @@
 </noscript>
 <!-- /Yandex.Metrika counter -->
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="citrix/assets/js/jquery-3.4.1.min.js"></script>
-{{--<script src="citrix/assets/vendors/bootstrap/js/popper.min.js"></script>--}}
-<script src="citrix/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-{{--<script src="citrix/assets/vendors/slick/slick.min.js"></script>--}}
-<script src="citrix/assets/js/parallaxie.js"></script>
-{{--<script src="citrix/assets/vendors/circle-progressbar/jquery.waypoints.min.js"></script>--}}
-{{--<script src="citrix/assets/vendors/circle-progressbar/jquery.counterup.min.js"></script>--}}
-{{--<script src="citrix/assets/vendors/circle-progressbar/circle-progress.js"></script>--}}
-{{--<script src="citrix/assets/vendors/magnify-popup/jquery.magnific-popup.min.js"></script>--}}
-<!--gmaps Js-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&ver=2.1.6"></script>
-<script src="citrix/assets/js/gmaps.min.js"></script>
-<script src="citrix/assets/js/map-active.js"></script>
-<!-- contact js -->
-<script src="citrix/assets/js/jquery.form.js"></script>
-<script src="citrix/assets/js/jquery.validate.min.js"></script>
-<script src="citrix/assets/js/contact.js"></script>
-<script src="citrix/assets/vendors/wow/wow.min.js"></script>
-<script src="citrix/assets/js/main.js"></script>
-</body>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQ291011B9"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MQ291011B9');
+</script>
+
+
+</body>
 </html>
