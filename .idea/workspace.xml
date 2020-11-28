@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Заполнение мета тегов title и description">
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Изменение meta title страниц">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/citrix.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/citrix.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/documents.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/documents.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/services.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,17 +175,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/src/Citrix/Main File/html/assets/img" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/storage/app/src/Citrix/Main File/html/assets/img" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/resources/views/static_pages" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/storage/app/public/images" />
-      <recent name="$PROJECT_DIR$/resources/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/static_pages" />
@@ -218,7 +221,11 @@
       <workItem from="1605429894477" duration="1327000" />
       <workItem from="1605505027999" duration="21000" />
       <workItem from="1605937495554" duration="50000" />
-      <workItem from="1605937916603" duration="5632000" />
+      <workItem from="1605937916603" duration="8883000" />
+      <workItem from="1606114525042" duration="5000" />
+      <workItem from="1606114551388" duration="28000" />
+      <workItem from="1606119329465" duration="2143000" />
+      <workItem from="1606554103082" duration="7970000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -465,11 +472,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605405581686</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Добавление инструмента &quot;Google Аналитика&quot;&#10;    добавление gtag.js на сайт&#10;    восстановление работы скриптов (отмена излишней оптимизации)">
+      <created>1605964139776</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1605964139776</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -484,7 +508,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev" />
     <MESSAGE value="Добавление вёрстки" />
     <MESSAGE value="Уменьшение размера фонового изображения" />
     <MESSAGE value="Добавление заготовок в шаблоны верстки" />
@@ -508,7 +531,9 @@
     <MESSAGE value="Сжатие фонового изображения шапки сайта" />
     <MESSAGE value="Сжатие изображения сайта" />
     <MESSAGE value="Заполнение мета тегов title и description" />
-    <option name="LAST_COMMIT_MESSAGE" value="Заполнение мета тегов title и description" />
+    <MESSAGE value="Добавление инструмента &quot;Google Аналитика&quot;&#10;    добавление gtag.js на сайт&#10;    восстановление работы скриптов (отмена излишней оптимизации)" />
+    <MESSAGE value="Изменение meta title страниц" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменение meta title страниц" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="220" width="483" height="325" key="#Notifications" timestamp="1602341612870">
@@ -519,10 +544,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="416" y="137" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1604788693474" />
-    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605505046772">
+    <state x="100" y="90" width="1166" height="578" key="DiffContextDialog" timestamp="1606574542002">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1605505046772" />
+    <state x="100" y="90" width="1166" height="578" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1606574542002" />
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606114576954">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606114576954" />
     <state x="518" y="305" width="319" height="154" key="NewPhpFileDialog" timestamp="1603633629823">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -531,25 +560,25 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="524" y="85" width="308" height="594" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1605939846667" />
-    <state x="194" y="27" width="977" height="737" key="SettingsEditor" timestamp="1604785989271">
+    <state x="194" y="27" width="977" height="737" key="SettingsEditor" timestamp="1606573883450">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="194" y="27" width="977" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1604785989271" />
+    <state x="194" y="27" width="977" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1606573883450" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1604837127375">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604837127375" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605405583396">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605964145525">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1605405583396" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1605964145525" />
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604791290671">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1604791290671" />
-    <state x="389" y="135" width="587" height="546" key="find.popup" timestamp="1605362163486">
+    <state x="389" y="135" width="587" height="546" key="find.popup" timestamp="1606577522729">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="389" y="135" width="587" height="546" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1605362163486" />
+    <state x="389" y="135" width="587" height="546" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1606577522729" />
   </component>
 </project>

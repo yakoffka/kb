@@ -1,6 +1,6 @@
 @extends('layouts.' . (config('view.theme') ?? 'app') )
 
-@section('title', 'Документы, регламентирующие работу КБ 911')
+@section('title', 'Документы, регламентирующие работу ООО «КБ 911»')
 
 @section('description',
     'Приказы, положения и политика обработки персональных данных - основные документы, регламентирующие работу КБ 911. '
@@ -51,11 +51,11 @@
                                 </a>
                                 <a href="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.pdf') }}" class="post_img">
                                     <img src="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.jpg') }}"
-                                         alt="Приказ о внесении в реестр Роскомнадзора" width="370"; height="218"/>
+                                         alt="Приказ о внесении в реестр Роскомнадзора" width="370" height="218"/>
                                 </a>
 
                                 <div class="post_content">
-                                    <a href="{{ asset('storage') }}/documents/Приказ о внесении в реестр Роскомнадзора.pdf" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
+                                    <a href="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.pdf') }}" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
                                     {{--<div class="h_post_info">
                                         <a href="#"><i class="far fa-heart"></i>72</a>
                                         <a href="#"><i class="far fa-comment"></i>29</a>
@@ -73,11 +73,11 @@
                                 </a>
                                 <a href="{{ asset('storage/documents/Положение об обработке персональных данных.pdf') }}" class="post_img">
                                     <img src="{{ asset('storage/documents/Положение об обработке персональных данных.jpg') }}"
-                                         alt="Положение об обработке персональных данных" width="160"; height="218"/>
+                                         alt="Положение об обработке персональных данных" width="160" height="218"/>
                                 </a>
 
                                 <div class="post_content">
-                                    <a href="{{ asset('storage') }}/documents/Положение об обработке персональных данных.pdf" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
+                                    <a href="{{ asset('storage/documents/Положение об обработке персональных данных.pdf') }}" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
                                     {{--<div class="h_post_info">
                                         <a href="#"><i class="far fa-heart"></i>72</a>
                                         <a href="#"><i class="far fa-comment"></i>29</a>
@@ -95,11 +95,11 @@
                                 </a>
                                 <a href="{{ asset('storage/documents/Политика обработки персональных данных.pdf') }}" class="post_img ">
                                     <img src="{{ asset('storage/documents/Политика обработки персональных данных_507x690.jpg') }}"
-                                         alt="Политика обработки персональных данных" width="160"; height="218"/>
+                                         alt="Политика обработки персональных данных" width="160" height="218"/>
                                 </a>
 
                                 <div class="post_content">
-                                    <a href="{{ asset('storage') }}/documents/Политика обработки персональных данных.pdf" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
+                                    <a href="{{ asset('storage/documents/Политика обработки персональных данных.pdf') }}" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
                                     {{--<div class="h_post_info">
                                         <a href="#"><i class="far fa-heart"></i>72</a>
                                         <a href="#"><i class="far fa-comment"></i>29</a>

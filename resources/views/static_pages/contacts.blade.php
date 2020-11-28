@@ -1,6 +1,6 @@
 @extends('layouts.' . (config('view.theme') ?? 'app') )
 
-@section('title', 'Контактная информация коллекторского бюро КБ 911')
+@section('title', 'Контактная информация ООО «КБ 911»')
 
 @section('description', config('custom.main_description')
     . 'Контакты коллекторского бюро КБ 911. Обратная связь, коллекторское бюро КБ 911 на карте, адреса и телефоны.')
@@ -96,13 +96,14 @@
                         <h2 id="feedback">Отправить сообщение</h2>
                         <form action="{{ route('contactForm.send') }}" method="POST" {{--id="contactForm" novalidate="novalidate"--}}
                               class="row contact_form">
+
                             @method('POST')
+
                             @csrf
 
                             <div class="col-lg-12 form-group">
                                 <input class="form-control" type="text" id="name" name="name"
-                                       placeholder="Ваше имя" value="{{ old('name') ?? ($dump['name'] ?? '') }}"
-                                       @error('name') is-invalid @enderror" required/>
+                                       placeholder="Ваше имя" value="{{ old('name') ?? ($dump['name'] ?? '') }}" required/>
                             </div>
 
                             <div class="col-lg-12 form-group">
@@ -121,17 +122,12 @@
                             </div>
 
                             <div class="col-lg-12 text-right form-group">
-                                {{--<button type="submit" class="theme_btn">
-                                    Отправить сообщение
-                                </button>--}}
                                 <button type="submit" class="btn btn-primary">отправить</button>
 
                             </div>
                         </form>
                         <div id="success">Your message succesfully sent!</div>
-                        <div id="error">
-                            Opps! There is something wrong. Please try again
-                        </div>
+                        <div id="error">Opps! There is something wrong. Please try again</div>
                     </div>
                 </div>
             </div>
@@ -141,7 +137,7 @@
     <section class="map_area">
         <div id="mapBox2"
              class="mapBox1"
-             data-marker="citrix/assets/img/locations.png"
+             data-marker="citrix/assets/img/location.png"
              data-lat="55.949345"
              data-lon="36.879409"
              data-zoom="14"
