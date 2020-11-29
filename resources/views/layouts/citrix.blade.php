@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="citrix/assets/css/style.css"/>
     <link rel="stylesheet" href="citrix/assets/css/responsive.css"/>
 
-
-    <title>{{ config('app.name', 'Laravel') }} - @yield('title')</title>
+    <meta name="description" content="@yield('description')"/>
+    <title>@yield('title')</title>
 
 </head>
 

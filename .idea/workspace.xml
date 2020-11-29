@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Изменение meta title страниц">
+    <list default="true" id="0b32224d-c320-49c9-90e6-b0b4047a165d" name="Default Changelist" comment="Изменение директивы @section('title') статических страниц для возможности вставки html-сущностей (добавление неразрывных пробелов в название фирмы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/citrix.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/citrix.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/contacts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/static_pages/documents.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/documents.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
@@ -175,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trash/э$xat0_2019_10_01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -225,7 +226,8 @@
       <workItem from="1606114525042" duration="5000" />
       <workItem from="1606114551388" duration="28000" />
       <workItem from="1606119329465" duration="2143000" />
-      <workItem from="1606554103082" duration="11176000" />
+      <workItem from="1606554103082" duration="13630000" />
+      <workItem from="1606649261802" duration="450000" />
     </task>
     <task id="LOCAL-00001" summary="Install Jetstream/Livewire&#10;    $ composer require laravel/jetstream&#10;    $ php artisan jetstream:install livewire&#10;    $ npm install &amp;&amp; npm run dev">
       <created>1602341955129</created>
@@ -486,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606582038687</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Изменение директивы @section('title') статических страниц для возможности вставки html-сущностей (добавление неразрывных пробелов в название фирмы">
+      <created>1606642633755</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1606642633755</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавление вёрстки" />
     <MESSAGE value="Уменьшение размера фонового изображения" />
     <MESSAGE value="Добавление заготовок в шаблоны верстки" />
     <MESSAGE value="Правка содержимого страниц" />
@@ -540,7 +548,8 @@
     <MESSAGE value="Заполнение мета тегов title и description" />
     <MESSAGE value="Добавление инструмента &quot;Google Аналитика&quot;&#10;    добавление gtag.js на сайт&#10;    восстановление работы скриптов (отмена излишней оптимизации)" />
     <MESSAGE value="Изменение meta title страниц" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменение meta title страниц" />
+    <MESSAGE value="Изменение директивы @section('title') статических страниц для возможности вставки html-сущностей (добавление неразрывных пробелов в название фирмы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменение директивы @section('title') статических страниц для возможности вставки html-сущностей (добавление неразрывных пробелов в название фирмы" />
   </component>
   <component name="WindowStateProjectService">
     <state x="436" y="220" width="483" height="325" key="#Notifications" timestamp="1602341612870">
@@ -559,10 +568,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="90" width="1166" height="578" key="DiffContextDialog/0.27.1366.741@0.27.1366.741" timestamp="1606574542002" />
-    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606634936917">
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606646107403">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606634936917" />
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606646107403" />
     <state x="518" y="305" width="319" height="154" key="NewPhpFileDialog" timestamp="1603633629823">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -579,14 +588,18 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.27.1366.741@0.27.1366.741" timestamp="1604837127375" />
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606582040867">
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606642635637">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606582040867" />
+    <state x="278" y="115" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606642635637" />
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604791290671">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741@0.27.1366.741" timestamp="1604791290671" />
+    <state x="0" y="27" width="1072" height="740" key="dock-window-1" timestamp="1606642636099">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="1072" height="740" key="dock-window-1/0.27.1366.741@0.27.1366.741" timestamp="1606642636099" />
     <state x="52" y="35" width="1140" height="621" key="find.popup" timestamp="1606636878154">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
