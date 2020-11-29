@@ -1,6 +1,8 @@
 @extends('layouts.' . (config('view.theme') ?? 'app') )
 
-@section('title', 'Официальный сайт ООО «КБ 911»')
+@section('title')
+    Официальный сайт ООО&nbsp;«КБ&nbsp;911»
+@stop
 
 @section('description',
     'Взыскание просроченной задолженности. Профессионализм и индивидуальный подход. '
@@ -24,7 +26,7 @@
                 <div class="col-lg-6">
                     <div class="about_content pl-0 wow fadeInLeft">
                         <p>
-                            ООО «КБ 911» независимое коллекторское бюро, работающее с задолженностью физических и
+                            ООО&nbsp;«КБ&nbsp;911» независимое коллекторское бюро, работающее с задолженностью физических и
                             юридических лиц на территории России.
                         </p>
                         <p>
@@ -43,7 +45,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInRight">
                     <img class="img-fluid" src="{{ asset('storage/home/businessman-800×638.jpg') }}"
-                         alt="ООО «КБ 911» независимое коллекторское бюро"/>
+                         alt="ООО&nbsp;«КБ&nbsp;911» независимое коллекторское бюро"/>
                 </div>
             </div>
         </div>
