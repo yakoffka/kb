@@ -143,9 +143,9 @@
         <div id="mapBox2"
              class="mapBox1"
              data-marker="citrix/assets/img/location.png"
-             data-lat="55.949345"
-             data-lon="36.879409"
-             data-zoom="14"
+             data-lat="55.766916"
+             data-lon="37.573088"
+             data-zoom="13"
              {{--data-info="г. Истра, д. Андреевское, ул. Луговая, д. 69"--}}
              data-info="123557, г. Москва, ул. Малая Грузинская, 28, цокольный этаж"
              datad-mlat="55.949345"
