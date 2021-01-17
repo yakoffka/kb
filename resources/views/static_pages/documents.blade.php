@@ -44,113 +44,44 @@
                 <div class="col-lg-12 blog_info">
                     <div class="row">
 
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item">
-                                <a href="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.pdf') }}">
-                                    <h4 class="text-center">
-                                        Приказ о внесении в реестр Роскомнадзора
-                                    </h4>
-                                </a>
-                                <a href="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.pdf') }}" class="post_img">
-                                    <img src="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.jpg') }}"
-                                         alt="Приказ о внесении в реестр Роскомнадзора" width="370" height="218"/>
-                                </a>
+                        @php
+                            $dataDocuments = [
+                                [
+                                    'h4' => 'Приказ о внесении в реестр Роскомнадзора',
+                                    'resource' => 'Приказ о внесении в реестр Роскомнадзора.pdf',
+                                    'image' => 'Приказ о внесении в реестр Роскомнадзора.jpg',
+                                    'downloaded_at' => 'Загружено: 25 Октября 2020 г.',
+                                ],
+                                [
+                                    'h4' => 'Положение об обработке персональных данных',
+                                    'resource' => 'Положение об обработке персональных данных.pdf',
+                                    'image' => 'Положение об обработке персональных данных.jpg',
+                                    'downloaded_at' => 'Загружено: 25 Октября 2020 г.',
+                                ],
+                                [
+                                    'h4' => 'Политика обработки персональных данных',
+                                    'resource' => 'Политика обработки персональных данных.pdf',
+                                    'image' => 'Политика обработки персональных данных_507x690.jpg',
+                                    'downloaded_at' => 'Загружено: 25 Октября 2020 г.',
+                                ],
+                                [
+                                    'h4' => 'Письмо о внесении в госреестр',
+                                    'resource' => 'письо_фссп_кб911.pdf',
+                                    'image' => 'письо_фссп_кб911.png',
+                                    'downloaded_at' => 'Загружено: 29 Декабря 2020 г.',
+                                ],
+                                [
+                                    'h4' => 'Решение о внесении сведений',
+                                    'resource' => 'реестр_кб911.pdf',
+                                    'image' => 'реестр_кб911.png',
+                                    'downloaded_at' => 'Загружено: 29 Декабря 2020 г.',
+                                ],
+                            ];
+                        @endphp
 
-                                <div class="post_content">
-                                    <a href="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.pdf') }}" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
-                                    {{--<div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>--}}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item">
-                                <a href="{{ asset('storage/documents/Положение об обработке персональных данных.pdf') }}">
-                                    <h4 class="text-center">
-                                        Положение об обработке персональных данных
-                                    </h4>
-                                </a>
-                                <a href="{{ asset('storage/documents/Положение об обработке персональных данных.pdf') }}" class="post_img">
-                                    <img src="{{ asset('storage/documents/Положение об обработке персональных данных.jpg') }}"
-                                         alt="Положение об обработке персональных данных" width="160" height="218"/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="{{ asset('storage/documents/Положение об обработке персональных данных.pdf') }}" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
-                                    {{--<div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>--}}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item center">
-                                <a href="{{ asset('storage/documents/Политика обработки персональных данных.pdf') }}">
-                                    <h4 class="text-center">
-                                        Политика обработки персональных данных
-                                    </h4>
-                                </a>
-                                <a href="{{ asset('storage/documents/Политика обработки персональных данных.pdf') }}" class="post_img ">
-                                    <img src="{{ asset('storage/documents/Политика обработки персональных данных_507x690.jpg') }}"
-                                         alt="Политика обработки персональных данных" width="160" height="218"/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="{{ asset('storage/documents/Политика обработки персональных данных.pdf') }}" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
-                                    {{--<div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>--}}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item center">
-                                <a href="{{ asset('storage/documents/письо_фссп_кб911.pdf') }}">
-                                    <h4 class="text-center">Письмо ФССП</h4>
-                                </a>
-
-                                <a href="{{ asset('storage/documents/письо_фссп_кб911.pdf') }}" class="post_img ">
-                                    <img src="{{ asset('storage/documents/письо_фссп_кб911.png') }}"
-                                         alt="Письмо ФССП" width="160" height="218"/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="{{ asset('storage/documents/письо_фссп_кб911.pdf') }}" class="h_post_date">Загружено: 29 Декабря 2020 г.</a>
-                                    {{--<div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>--}}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <div class="h_blog_post_item blog_item center">
-                                <a href="{{ asset('storage/documents/реестр_кб911.pdf') }}">
-                                    <h4 class="text-center">Решение о внесении сведений</h4>
-                                </a>
-
-                                <a href="{{ asset('storage/documents/реестр_кб911.pdf') }}" class="post_img ">
-                                    <img src="{{ asset('storage/documents/реестр_кб911.png') }}"
-                                         alt="Решение о внесении сведений" width="160" height="218"/>
-                                </a>
-
-                                <div class="post_content">
-                                    <a href="{{ asset('storage/documents/реестр_кб911.pdf') }}" class="h_post_date">Загружено: 29 Декабря 2020 г.</a>
-                                    {{--<div class="h_post_info">
-                                        <a href="#"><i class="far fa-heart"></i>72</a>
-                                        <a href="#"><i class="far fa-comment"></i>29</a>
-                                    </div>--}}
-                                </div>
-                            </div>
-                        </div>
+                        @foreach($dataDocuments as $dataDocument)
+                            @include('static_pages.parts.document', ['dataDocument' => $dataDocument])
+                        @endforeach
 
                     </div>
                 </div>
