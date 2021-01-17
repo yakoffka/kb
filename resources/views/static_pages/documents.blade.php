@@ -47,7 +47,7 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="h_blog_post_item blog_item">
                                 <a href="{{ asset('storage/documents/Приказ о внесении в реестр Роскомнадзора.pdf') }}">
-                                    <h4>
+                                    <h4 class="text-center">
                                         Приказ о внесении в реестр Роскомнадзора
                                     </h4>
                                 </a>
@@ -69,7 +69,7 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="h_blog_post_item blog_item">
                                 <a href="{{ asset('storage/documents/Положение об обработке персональных данных.pdf') }}">
-                                    <h4>
+                                    <h4 class="text-center">
                                         Положение об обработке персональных данных
                                     </h4>
                                 </a>
@@ -91,7 +91,7 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="h_blog_post_item blog_item center">
                                 <a href="{{ asset('storage/documents/Политика обработки персональных данных.pdf') }}">
-                                    <h4>
+                                    <h4 class="text-center">
                                         Политика обработки персональных данных
                                     </h4>
                                 </a>
@@ -102,6 +102,48 @@
 
                                 <div class="post_content">
                                     <a href="{{ asset('storage/documents/Политика обработки персональных данных.pdf') }}" class="h_post_date">Загружено: 25 Октября 2020 г.</a>
+                                    {{--<div class="h_post_info">
+                                        <a href="#"><i class="far fa-heart"></i>72</a>
+                                        <a href="#"><i class="far fa-comment"></i>29</a>
+                                    </div>--}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="h_blog_post_item blog_item center">
+                                <a href="{{ asset('storage/documents/письо_фссп_кб911.pdf') }}">
+                                    <h4 class="text-center">Письмо ФССП</h4>
+                                </a>
+
+                                <a href="{{ asset('storage/documents/письо_фссп_кб911.pdf') }}" class="post_img ">
+                                    <img src="{{ asset('storage/documents/письо_фссп_кб911.png') }}"
+                                         alt="Письмо ФССП" width="160" height="218"/>
+                                </a>
+
+                                <div class="post_content">
+                                    <a href="{{ asset('storage/documents/письо_фссп_кб911.pdf') }}" class="h_post_date">Загружено: 29 Декабря 2020 г.</a>
+                                    {{--<div class="h_post_info">
+                                        <a href="#"><i class="far fa-heart"></i>72</a>
+                                        <a href="#"><i class="far fa-comment"></i>29</a>
+                                    </div>--}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="h_blog_post_item blog_item center">
+                                <a href="{{ asset('storage/documents/реестр_кб911.pdf') }}">
+                                    <h4 class="text-center">Решение о внесении сведений</h4>
+                                </a>
+
+                                <a href="{{ asset('storage/documents/реестр_кб911.pdf') }}" class="post_img ">
+                                    <img src="{{ asset('storage/documents/реестр_кб911.png') }}"
+                                         alt="Решение о внесении сведений" width="160" height="218"/>
+                                </a>
+
+                                <div class="post_content">
+                                    <a href="{{ asset('storage/documents/реестр_кб911.pdf') }}" class="h_post_date">Загружено: 29 Декабря 2020 г.</a>
                                     {{--<div class="h_post_info">
                                         <a href="#"><i class="far fa-heart"></i>72</a>
                                         <a href="#"><i class="far fa-comment"></i>29</a>
