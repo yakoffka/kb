@@ -1,11 +1,11 @@
 <div class="col-lg-4 col-md-4">
     <div class="h_blog_post_item blog_item">
         <a href="{{ asset('storage/documents/' . $dataDocument['resource']) }}">
-            <h4 class="text-center">{{ $dataDocument['h4'] }}</h4>
+            <h5 class="text-center">{{ $dataDocument['header'] }}</h5>
         </a>
         <a href="{{ asset('storage/documents/' . $dataDocument['resource']) }}" class="post_img">
             <img src="{{ asset('storage/documents/' . $dataDocument['image']) }}"
-                 alt="{{ $dataDocument['h4'] }}" {{--width="370"--}} height="218"/>
+                 alt="{{ $dataDocument['header'] }}" {{--width="370"--}} height="218"/>
         </a>
 
         <div class="post_content">
