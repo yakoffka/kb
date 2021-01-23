@@ -1,7 +1,7 @@
 @extends('layouts.' . (config('view.theme') ?? 'app') )
 
 @section('title')
-Документы, регламентирующие работу ООО&nbsp;«КБ&nbsp;911»
+Документы ООО&nbsp;«КБ&nbsp;911»
 @stop
 
 @section('description',
