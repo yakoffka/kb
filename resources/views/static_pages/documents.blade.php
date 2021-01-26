@@ -64,12 +64,12 @@
                                     'image' => 'Политика обработки персональных данных_507x690.jpg',
                                     'downloaded_at' => 'Загружено: 25 Октября 2020 г.',
                                 ],
-                                // [
-                                //     'header' => 'Письмо о внесении в госреестр',
-                                //     'resource' => 'письо_фссп_кб911.pdf',
-                                //     'image' => 'письо_фссп_кб911.png',
-                                //     'downloaded_at' => 'Загружено: 29 Декабря 2020 г.',
-                                // ],
+                                [
+                                    'header' => 'Выписка из реестра операторов',
+                                    'resource' => 'Extract_from_the_register_of_operators.pdf',
+                                    'image' => 'Extract_from_the_register_of_operators.png',
+                                    'downloaded_at' => 'Загружено: 27 Ноября 2020 г.',
+                                ],
                                 [
                                     'header' => 'Свидетельство о внесении сведений в госреестр',
                                     'resource' => 'реестр_кб911.pdf',
