@@ -24,16 +24,15 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/', fn() => view('static_pages.home'))->name('home');
-// Route::get('/about', fn() => view('static_pages.about'))->name('about');
-Route::get('/services', fn() => view('static_pages.services'))->name('services');
-Route::get('/documents', fn() => view('static_pages.documents'))->name('documents');
-Route::get('/contacts', fn() => view('static_pages.contacts'))->name('contacts');
+Route::get('/', static fn() => view('static_pages.home'))->name('home');
+// Route::get('/about', static fn() => view('static_pages.about'))->name('about');
+Route::get('/services', static fn() => view('static_pages.services'))->name('services');
+Route::get('/documents', static fn() => view('static_pages.documents'))->name('documents');
+Route::get('/contacts', static fn() => view('static_pages.contacts'))->name('contacts');
 
 Route::post('send', [ContactFormController::class, 'sendEmail'])->name('contactForm.send');
 // тестирование разметки email
-Route::any('/testMessageContactForm', function (MessageContactFormRequest $request) {
+Route::any('/testMessageContactForm', static function (MessageContactFormRequest $request) {
     $messageData = $request->validated();
-    //dd($messageData);
     return new MessageContactForm($messageData);
 })->name('contactForm.testSend');
