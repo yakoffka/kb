@@ -25,7 +25,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/', fn() => view('static_pages.home'))->name('home');
-Route::get('/about', fn() => view('static_pages.about'))->name('about');
+// Route::get('/about', fn() => view('static_pages.about'))->name('about');
 Route::get('/services', fn() => view('static_pages.services'))->name('services');
 Route::get('/documents', fn() => view('static_pages.documents'))->name('documents');
 Route::get('/contacts', fn() => view('static_pages.contacts'))->name('contacts');
