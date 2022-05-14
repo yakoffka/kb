@@ -1,8 +1,6 @@
 <?php
 
 use App\Http\Controllers\ContactFormController;
-use App\Http\Requests\MessageContactFormRequest;
-use App\Mail\MessageContactForm;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,8 +29,3 @@ Route::get('/documents', static fn() => view('static_pages.documents'))->name('d
 Route::get('/contacts', static fn() => view('static_pages.contacts'))->name('contacts');
 
 Route::post('send', [ContactFormController::class, 'sendEmail'])->name('contactForm.send');
-// тестирование разметки email
-Route::any('/testMessageContactForm', static function (MessageContactFormRequest $request) {
-    $messageData = $request->validated();
-    return new MessageContactForm($messageData);
-})->name('contactForm.testSend');

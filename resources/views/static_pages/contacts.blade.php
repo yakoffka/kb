@@ -99,10 +99,11 @@
                     //     'message' => 'Соединённые Штаты Америки официально становятся первым государством, полностью управляемым не пойми кем через средства массовой информации и социальные сети.',
                     // ];
                 ?>
+                {{-- закомментировано в целях борьбы со спамом 2022-05-13. ya
                 <div class="col-lg-6">
                     <div class="contact_inner">
                         <h2 id="feedback">Отправить сообщение</h2>
-                        <form action="{{ route('contactForm.send') }}" method="POST" {{--id="contactForm" novalidate="novalidate"--}}
+                        <form action="{{ route('contactForm.send') }}" method="POST" --}}{{--id="contactForm" novalidate="novalidate"--}}{{--
                               class="row contact_form">
 
                             @method('POST')
@@ -138,6 +139,7 @@
                         <div id="error">Opps! There is something wrong. Please try again</div>
                     </div>
                 </div>
+                --}}
             </div>
         </div>
     </section>
