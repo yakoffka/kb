@@ -45,7 +45,7 @@
     <!--contact_area-->
     <section class="contact_area sec_pad">
         <div class="container">
-            <div class="row">
+            <div class="row flex-row-reverse">
                 <div class="col-lg-6">
                     <div class="contact_info_right">
                         <h2>{{ __('Contact Details') }}</h2>
@@ -53,7 +53,12 @@
                             <div class="icon"><i class="fas fa-home"></i></div>
                             <div class="media-body">
                                 <h5>Наш адрес</h5>
-                                <p>123557, г. Москва, ул. Малая Грузинская, 28, офис 10ц</p>
+                                {{--<p>
+                                    143500, Московская обл.,  г. Истра, д. Андреевское, ул. Луговая, д. 69
+                                </p>--}}
+                                <p>
+                                    123557, г. Москва, ул. Малая Грузинская, 28, офис 10ц
+                                </p>
                             </div>
                         </div>
                         <div class="media c_info_item">
@@ -84,6 +89,57 @@
                         </div>
                     </div>
                 </div>
+
+
+                <?php
+                    // $dump = [
+                    //     'name' => 'Акакий Акакиевич',
+                    //     'email' => 'email@test.test',
+                    //     'subject' => 'Тестирование',
+                    //     'message' => 'Соединённые Штаты Америки официально становятся первым государством, полностью управляемым не пойми кем через средства массовой информации и социальные сети.',
+                    // ];
+                ?>
+                {{-- закомментировано в целях борьбы со спамом 2022-05-13. ya
+                <div class="col-lg-6">
+                    <div class="contact_inner">
+                        <h2 id="feedback">Отправить сообщение</h2>
+                        <form action="{{ route('contactForm.send') }}" method="POST" --}}{{--id="contactForm" novalidate="novalidate"--}}{{--
+                              class="row contact_form">
+
+                            @method('POST')
+
+                            @csrf
+
+                            <div class="col-lg-12 form-group">
+                                <input class="form-control" type="text" id="name" name="name"
+                                       placeholder="Ваше имя" value="{{ old('name') ?? ($dump['name'] ?? '') }}" required/>
+                            </div>
+
+                            <div class="col-lg-12 form-group">
+                                <input class="form-control" type="email" id="email" name="email"
+                                       placeholder="Email" value="{{ old('email') ?? ($dump['email'] ?? '') }}" required/>
+                            </div>
+
+                            <div class="col-lg-12 form-group">
+                                <input class="form-control" type="text" id="subject" name="subject"
+                                       placeholder="Тема сообщения" value="{{ old('subject') ?? ($dump['subject'] ?? '') }}" required/>
+                            </div>
+
+                            <div class="col-lg-12 form-group">
+                                <textarea class="form-control" name="message" id="message" cols="30" rows="10"
+                                          placeholder="Сообщение">{{ old('message') ?? ($dump['message'] ?? '') }}</textarea>
+                            </div>
+
+                            <div class="col-lg-12 text-right form-group">
+                                <button type="submit" class="btn btn-primary">отправить</button>
+
+                            </div>
+                        </form>
+                        <div id="success">Your message succesfully sent!</div>
+                        <div id="error">Opps! There is something wrong. Please try again</div>
+                    </div>
+                </div>
+                --}}
             </div>
         </div>
     </section>
