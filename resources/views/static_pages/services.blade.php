@@ -1,7 +1,7 @@
 @extends('layouts.' . (config('view.theme') ?? 'app') )
 
 @section('title')
-Услуги, оказываемые ООО&nbsp;«КБ&nbsp;911»
+Услуги, оказываемые ООО&nbsp;ПКО&nbsp;«КБ&nbsp;911»
 @stop
 
 @section('description', config('custom.main_description')

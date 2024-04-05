@@ -18,9 +18,10 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+// @todo закрываю лишнюю ссылку: пока нет нормального личного кабинета, смысла в ней нет
+// Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+//     return view('dashboard');
+// })->name('dashboard');
 
 Route::get('/', static fn() => view('static_pages.home'))->name('home');
 // Route::get('/about', static fn() => view('static_pages.about'))->name('about');
